@@ -1,4 +1,5 @@
 import 'package:brew_crew/services/auth.dart';
+import 'package:brew_crew/shared/constants.dart';
 import 'package:flutter/material.dart';
 
 class Register extends StatefulWidget {
@@ -53,9 +54,12 @@ class _RegisterState extends State<Register> {
                     email = value;
                   });
                 },
+                decoration: textInputDecoration.copyWith(
+                  hintText: 'Email',
+                ),
               ),
               SizedBox(
-                height: 20.0,
+                height: 25.0,
               ),
               TextFormField(
                 validator: (value) =>
@@ -66,6 +70,9 @@ class _RegisterState extends State<Register> {
                     password = value;
                   });
                 },
+                decoration: textInputDecoration.copyWith(
+                  hintText: 'Password',
+                ),
               ),
               SizedBox(
                 height: 20.0,
