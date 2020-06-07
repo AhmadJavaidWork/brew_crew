@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+- Add your own google-services.json data in the [google-services.json file](https://github.com/AhmadJavaidWork/brew_crew/blob/master/android/app/google-services.json)
+
+- And also paste your own package name in the [build.gradle file](https://github.com/AhmadJavaidWork/brew_crew/blob/9053da9e469733c746b01faf1fe55caa6aebddb2/android/app/build.gradle#L41)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
